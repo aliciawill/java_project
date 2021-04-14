@@ -1,0 +1,26 @@
+package com.mega.mvc40;
+
+import java.util.Iterator;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ArrayController {
+
+	@RequestMapping("array")
+	public void array(ArrayVO vo) {
+		System.out.println(names.length + ", " + ages.length);
+		String[] names = vo.getNames();
+		for (String s1 : names) {
+			System.out.print(s1 + " ");
+		}
+		
+		String[] ages = vo.getNames();
+		for (String s2 : ages) {
+			System.out.print(s2 + " ");
+		}
+		
+		
+	}
+}

@@ -1,0 +1,6 @@
+defaultTernModules=guess-types,outline,ecma5,browser
+eclipse.preferences.version=1
+loadingLocalPlugin=false
+repositories=
+traceOnConsole=false
+used-repository-name=default

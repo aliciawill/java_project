@@ -1,0 +1,8 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHÛ*RMAJORZBUG
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHÜ*RMAJORZ
+CODE_SMELL
+rWeb:DynamicJspIncludeCheck"6Use an include action instead of an include directive.(·¶ÓºHİ*RMAJORZ
+CODE_SMELL
+wWeb:DynamicJspIncludeCheck"6Use an include action instead of an include directive.(ŠÛ¶©ûÿÿÿÿHŞ*RMAJORZ
+CODE_SMELL

@@ -1,0 +1,9 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHì*RMAJORZBUG
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHí*RMAJORZ
+CODE_SMELL
+S	Web:S1827")Remove this deprecated "color" attribute.(ºÙ©3Hî*RMAJORZ
+CODE_SMELL
+}Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(ì‘¸ñHï*RMAJORZBUG
+UWeb:NonConsecutiveHeadingCheck"Do not skip level H1.(¨‚ÃÚHğ*RMINORZ
+CODE_SMELL

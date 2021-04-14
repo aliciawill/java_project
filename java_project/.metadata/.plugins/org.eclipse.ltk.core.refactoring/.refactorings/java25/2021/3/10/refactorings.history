@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;컬렉션.셋텽&apos; to &apos;셋형&apos;&#x0D;&#x0A;- Original project: &apos;java25&apos;&#x0D;&#x0A;- Original element: &apos;컬렉션.셋텽&apos;&#x0D;&#x0A;- Renamed element: &apos;컬렉션.셋형&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;셋텽&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;컬렉션{셋텽.java[셋텽" matchStrategy="1" name="셋형" qualified="false" references="true" similarDeclarations="false" stamp="1614750905217" textual="false" version="1.0"/>
+</session>

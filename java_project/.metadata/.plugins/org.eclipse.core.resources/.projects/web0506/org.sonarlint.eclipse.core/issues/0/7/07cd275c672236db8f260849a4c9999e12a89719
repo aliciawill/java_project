@@ -1,0 +1,43 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‰üÿıÿÿÿÿ8ê‚ôƒ/H-RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(”Üğœ8ê‚ôƒ/H-RMAJORZ
+CODE_SMELL
+o
+java:S1854"7Remove this useless assignment to local variable "tel".(ó…•öúÿÿÿÿ8º•ˆŸƒ/H-RMAJORZ
+CODE_SMELL
+a
+java:S1481")Remove this unused "name" local variable.(¶ˆæÅøÿÿÿÿ8º•ˆŸƒ/H‘-RMINORZ
+CODE_SMELL
+|
+java:S1192
+"GDefine a constant instead of duplicating this literal "window" 4 times.(‰§·\8º•ˆŸƒ/H’-RCRITICALZ
+CODE_SMELL
+`
+java:S1481"(Remove this unused "tel" local variable.(ó…•öúÿÿÿÿ8º•ˆŸƒ/H—-RMINORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "url" local variable.(ç„’€8¸Úùƒ/H˜-RMINORZ
+CODE_SMELL
+Z
+java:S1481"'Remove this unused "pw" local variable.(ß‰¼Ò8º•ˆŸƒ/H™-RMINORZ
+CODE_SMELL
+‚
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(àø„˜úÿÿÿÿ8ê‚ôƒ/Hš-RBLOCKERZBUG
+w	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠÖˆH›-RMINORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "url".(ç„’€8¸Úùƒ/Hœ-RMAJORZ
+CODE_SMELL
+Y
+java:S2695"+This "PreparedStatement" has no parameters.(èƒÉ8Ã†Ÿƒ/H-RBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(€¬‘—8ê‚ôƒ/H-RMAJORZ
+CODE_SMELL
+p
+java:S1854"8Remove this useless assignment to local variable "name".(¶ˆæÅøÿÿÿÿ8º•ˆŸƒ/HŸ-RMAJORZ
+CODE_SMELL
+i
+java:S1854"6Remove this useless assignment to local variable "pw".(ß‰¼Ò8º•ˆŸƒ/H -RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ìù´·8ê‚ôƒ/H¡-RMAJORZ
+CODE_SMELL

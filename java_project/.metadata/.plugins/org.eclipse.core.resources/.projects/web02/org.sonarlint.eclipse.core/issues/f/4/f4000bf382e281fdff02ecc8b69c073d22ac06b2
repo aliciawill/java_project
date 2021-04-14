@@ -1,0 +1,9 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHÙRMAJORZBUG
+`Web:InternationalizationCheck")Define this label in the resource bundle.(µş¦pHÚRMAJORZBUG
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHÛRMAJORZ
+CODE_SMELL
+S	Web:S1827	")Remove this deprecated "color" attribute.(ºÙ©3HÜRMAJORZ
+CODE_SMELL
+UWeb:NonConsecutiveHeadingCheck"Do not skip level H1.(™èÛıHİRMINORZ
+CODE_SMELL

@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="test2.jsp?b=1">
+	<input name="name" value="test..."> 
+	<input name="vnum" value="${vo.num}" type="hidden"> 
+	<input type="image"></form>
+</body>
+<a href="select?name=${name}&vnum=${vnum}">나 넘어간다.</a>
+</html>

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="array">
+<select name="name" multiple="multiple">
+	<option value="1">1
+	<option value="2">2
+	<option value="3">3
+</select>
+<br>
+<input type="checkbox" name="age" value="100">100
+<input type="checkbox" name="age" value="200">100
+<input type="checkbox" name="age" value="300">100
+</form>
+</body>
+</html>

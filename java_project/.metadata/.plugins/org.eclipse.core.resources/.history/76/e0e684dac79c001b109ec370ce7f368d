@@ -1,0 +1,39 @@
+package com.mega.mvc40;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ArrayController {
+
+	@RequestMapping("list100")
+	public void array2() {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("aaa");
+		list.add("bbb");
+		list.add("ccc");
+		list.add("ddd");
+		list.add("eee");
+		
+	}
+	
+	@RequestMapping("array")
+	public void array(ArrayVO vo) {
+		String[] names = vo.getNames();
+		for (String s1 : names) {
+			System.out.print(s1 + " ");
+		}
+		
+		String[] ages = vo.getNames();
+		for (String s2 : ages) {
+			System.out.print(s2 + " ");
+		}
+		System.out.println(names.length + ", " + ages.length);
+		
+		
+	}
+	
+}

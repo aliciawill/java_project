@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="resources/js/jquery-3.6.0.js"></script>
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#kakao').click(function() {
+		$.ajax({
+			url: "http://kauth.kakao.com/oauth/authorize",
+			data : {
+				client_id: "",
+				redirect_uri : "http://localhost:8889/oauth",
+				response_type : 
+			},
+			success: function() {
+				
+			}
+		})
+	})	
+})
+</script>
+</head>
+<body>
+<button id="kakao">카카오 로그인</button>
+</body>
+</html>

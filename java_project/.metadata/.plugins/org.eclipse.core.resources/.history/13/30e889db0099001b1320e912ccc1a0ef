@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script type="text/javascript">
+function kakao() {
+	Kakao.init('aa598f4adfb9e7e766be17ee75543c48');
+	alert(Kakao.isInitialized());
+}
+</script>
+</head>
+<body>
+<button onclick="kakao()"><img alt="" src="https://developers.kakao.com/tool/resource/static/img/button/login/full/ko/kakao_login_medium_narrow.png"></button>
+
+</a>
+</body>
+</html>
+
+

@@ -1,0 +1,11 @@
+package yesterday;
+
+public class BasicData {
+
+	public static void main(String[] args) {
+		//자동완성: 컨트롤+스페이스바
+		//sysout, syso
+		System.out.println("자바 두번째 날입니다.");
+	}
+
+}

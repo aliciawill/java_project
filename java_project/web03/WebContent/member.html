@@ -1,0 +1,48 @@
+<!DOCTYPE html><!-- 브라우저에게 알려주는 것 -->
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>회원가입화면</title>
+      <script type="text/javascript">
+      alert('test')
+      </script>
+   </head>
+   <body>
+      <h2>회원가입화면입니다.</h2>
+      <hr color="red">
+       <!--form태그는 값을 입력하고 싶을 때 사용  -->
+       <!-- 입력값들은 모두 form들어가야 한다.  -->
+       <!--action: 입력값을 받아서 처리하는 다음페이지를 지정 -->
+       <form action="member2.jsp"><!--자바로 서버를 만드는곳  -->
+       아이디: <input name="id"><br><!-- jsp = java server page -->
+       패스워드: <input name="pw"><br>
+       이름: <input name="name"><br>
+       연락처: 
+       <select name="company"><!--name: 넘어갈때 이게 무엇인가를 알려주는 key역할 -->
+          <option value="SK">SK</option>
+          <option value="LG">LG</option>
+          <option value="KT">KT</option>
+       </select>
+       성별:
+       <input name="tel"><br>
+       <input type="radio" value="남자" name="gender">남자
+       <input type="radio" value="여자" name="gender">여자
+       <br>
+       <!--radio: 여러 개중 하나만 선택! -->
+       
+       생년월일: <input name="birth"><br>
+       카드: <input name="card"><br>
+       카드번호: <input name="cardnum"><br>
+       하고싶은말:
+       <textarea rows="5" cols="20" name="word"></textarea>
+       <br>
+       취미: <!-- checkbox: 여러 개 선택 가능! -->
+       <input type="checkbox" value="달리기" name="hobby">달리기
+       <input type="checkbox" value="독서" name="hobby">독서
+       <input type="checkbox" value="등산" name="hobby">등산
+       <br>
+       <button type="submit">서버로 전송</button>
+       <!--네트워크를 위한 것: 랜선, ip, 포트   -->
+       </form>
+   </body>
+</html>

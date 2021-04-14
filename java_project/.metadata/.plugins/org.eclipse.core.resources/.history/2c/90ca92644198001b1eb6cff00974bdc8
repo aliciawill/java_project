@@ -1,0 +1,8 @@
+package com.mega.mvc40;
+
+public class ArrayVO {
+	String[] names;
+	String[] ages;
+	
+	
+}

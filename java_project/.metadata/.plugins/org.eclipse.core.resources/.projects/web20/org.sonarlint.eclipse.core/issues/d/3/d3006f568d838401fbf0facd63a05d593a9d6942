@@ -1,0 +1,61 @@
+
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MH£RMAJORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH¤RMAJORZBUG
+€Web:LongJavaScriptCheck"@The length of this JS script (127) exceeds the maximum set to 5.(¦Ş²Š8ğÕû“ı.H¥RMAJORZ
+CODE_SMELL
+\	Web:S1827")Remove this deprecated "align" attribute.(î ’õ8ğÕû“ı.H¦RMAJORZ
+CODE_SMELL
+hWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(î ’õ8ğÕû“ı.H§RMAJORZBUG
+^Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(î ’õ8ğÕû“ı.H¨RMINORZBUG
+dWeb:TableWithoutCaptionCheck" Add a description to this table.(Œı•Âÿÿÿÿÿ8ğÕû“ı.H©RMINORZBUG
+V	Web:S5256"%Add "<th>" headers to this "<table>".(Œı•Âÿÿÿÿÿ8ğÕû“ı.HªRMAJORZBUG
+a	Web:S1827")Remove this deprecated "width" attribute.(Œı•Âÿÿÿÿÿ8ğÕû“ı.H«RMAJORZ
+CODE_SMELL
+a	Web:S1827")Remove this deprecated "align" attribute.(Œı•Âÿÿÿÿÿ8ğÕû“ı.H¬RMAJORZ
+CODE_SMELL
+g	Web:S1827"/Remove this deprecated "cellspacing" attribute.(Œı•Âÿÿÿÿÿ8ğÕû“ı.H­RMAJORZ
+CODE_SMELL
+a	Web:S1827")Remove this deprecated "align" attribute.(üÄî›ıÿÿÿÿ8ğÕû“ı.H®RMAJORZ
+CODE_SMELL
+hWeb:UnsupportedTagsInHtml5Check‘"&Remove this deprecated "font" element.(¥ĞËà8ğÕû“ı.H¯RMAJORZBUG
+^Web:BoldAndItalicTagsCheck‘"!Replace this <b> tag by <strong>.(¥ĞËà8ğÕû“ı.H°RMINORZBUG
+iWeb:InternationalizationCheck‘")Define this label in the resource bundle.(¥ĞËà8ğÕû“ı.H±RMAJORZBUG
+^Web:BoldAndItalicTagsCheck”"!Replace this <b> tag by <strong>.(Â½Š½8ğÕû“ı.H²RMINORZBUG
+^Web:BoldAndItalicTagsCheck˜"!Replace this <b> tag by <strong>.(€¶–8ğÕû“ı.H³RMINORZBUG
+^Web:BoldAndItalicTagsCheckœ"!Replace this <b> tag by <strong>.(ªØ–ğ8ğÕû“ı.H´RMINORZBUG
+^Web:BoldAndItalicTagsCheck "!Replace this <b> tag by <strong>.(Ï½Å8ğÕû“ı.HµRMINORZBUG
+^Web:BoldAndItalicTagsCheck¤"!Replace this <b> tag by <strong>.(ÔÚö8ğÕû“ı.H¶RMINORZBUG
+…Web:InputWithoutLabelCheck¥"HAdd an "id" attribute to this input field and associate it with a label.(ı¤Å8ğÕû“ı.H·RMAJORZBUG
+a	Web:S1827§")Remove this deprecated "align" attribute.(üÄî›ıÿÿÿÿ8ğÕû“ı.H¸RMAJORZ
+CODE_SMELL
+mWeb:UnsupportedTagsInHtml5Check¨"&Remove this deprecated "font" element.(ÕËÊÀıÿÿÿÿ8ğÕû“ı.H¹RMAJORZBUG
+cWeb:BoldAndItalicTagsCheck¨"!Replace this <b> tag by <strong>.(ÕËÊÀıÿÿÿÿ8ğÕû“ı.HºRMINORZBUG
+nWeb:InternationalizationCheck¨")Define this label in the resource bundle.(ÕËÊÀıÿÿÿÿ8ğÕû“ı.H»RMAJORZBUG
+cWeb:BoldAndItalicTagsCheck«"!Replace this <b> tag by <strong>.(½ú‡áúÿÿÿÿ8ğÕû“ı.H¼RMINORZBUG
+^Web:BoldAndItalicTagsCheck²"!Replace this <b> tag by <strong>.(üİÆ8ğÕû“ı.H½RMINORZBUG
+cWeb:BoldAndItalicTagsCheckº"!Replace this <b> tag by <strong>.(åÂÌÇùÿÿÿÿ8ğÕû“ı.H¾RMINORZBUG
+…Web:InputWithoutLabelCheck»"HAdd an "id" attribute to this input field and associate it with a label.(µØÜµ8ğÕû“ı.H¿RMAJORZBUG
+iWeb:InternationalizationCheck»")Define this label in the resource bundle.(µØÜµ8ğÕû“ı.HÀRMAJORZBUG
+…Web:InputWithoutLabelCheck¼"HAdd an "id" attribute to this input field and associate it with a label.(Èàá‡8ğÕû“ı.HÁRMAJORZBUG
+iWeb:InternationalizationCheck¼")Define this label in the resource bundle.(Èàá‡8ğÕû“ı.HÂRMAJORZBUG
+„Web:InputWithoutLabelCheck½"HAdd an "id" attribute to this input field and associate it with a label.(Úí‚:8ğÕû“ı.HÃRMAJORZBUG
+hWeb:InternationalizationCheck½")Define this label in the resource bundle.(Úí‚:8ğÕû“ı.HÄRMAJORZBUG
+…Web:InputWithoutLabelCheck¾"HAdd an "id" attribute to this input field and associate it with a label.(Ó¡İŞ8ğÕû“ı.HÅRMAJORZBUG
+iWeb:InternationalizationCheck¾")Define this label in the resource bundle.(Ó¡İŞ8ğÕû“ı.HÆRMAJORZBUG
+ŠWeb:InputWithoutLabelCheck¿"HAdd an "id" attribute to this input field and associate it with a label.(ÿÕõÔøÿÿÿÿ8ğÕû“ı.HÇRMAJORZBUG
+nWeb:InternationalizationCheck¿")Define this label in the resource bundle.(ÿÕõÔøÿÿÿÿ8ğÕû“ı.HÈRMAJORZBUG
+cWeb:BoldAndItalicTagsCheckÄ"!Replace this <b> tag by <strong>.(§æØŒşÿÿÿÿ8ğÕû“ı.HÉRMINORZBUG
+ŠWeb:InputWithoutLabelCheckÆ"HAdd an "id" attribute to this input field and associate it with a label.(ÊÉ‡¿ùÿÿÿÿ8ğÕû“ı.HÊRMAJORZBUG
+iWeb:UnclosedTagCheck«"-The tag "b" has no corresponding closing tag.(½ú‡áúÿÿÿÿ8ğÕû“ı.HËRMINORZBUG
+jWeb:UnsupportedTagsInHtml5CheckÉ"(Remove this deprecated "center" element.(¡á€Ò8ğÕû“ı.HÌRMAJORZBUG
+ŠWeb:InputWithoutLabelCheckÌ"HAdd an "id" attribute to this input field and associate it with a label.(ûÓÊ‡øÿÿÿÿ8ğÕû“ı.HÍRMAJORZBUG
+hWeb:InputWithoutLabelCheck",Associate a valid label to this input field.(ƒŸ²8ğÕû“ı.HÎRMAJORZBUG
+nWeb:InputWithoutLabelCheckµ",Associate a valid label to this input field.(ô…ÌÚúÿÿÿÿ8ğÕû“ı.HÏRMAJORZBUG
+nWeb:InputWithoutLabelCheck™",Associate a valid label to this input field.(âÇŸÇşÿÿÿÿ8ğÕû“ı.HĞRMAJORZBUG
+iWeb:InputWithoutLabelCheck¬",Associate a valid label to this input field.(Ğ¼ñ‰8ğÕû“ı.HÑRMAJORZBUG
+nWeb:InputWithoutLabelCheck•",Associate a valid label to this input field.(”Î‰ ûÿÿÿÿ8ğÕû“ı.HÒRMAJORZBUG
+nWeb:InputWithoutLabelCheck¶",Associate a valid label to this input field.(Ò¡µ—ıÿÿÿÿ8ğÕû“ı.HÓRMAJORZBUG
+iWeb:InputWithoutLabelCheck¡",Associate a valid label to this input field.(µê¸¬8ğÕû“ı.HÔRMAJORZBUG
+hWeb:InputWithoutLabelCheck´",Associate a valid label to this input field.(±³ÍU8ğÕû“ı.HÕRMAJORZBUG
+hWeb:InputWithoutLabelCheck­",Associate a valid label to this input field.(¼€ÎM8ğÕû“ı.HÖRMAJORZBUG

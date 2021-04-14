@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+	<html>
+<!-- 소셜로그인 javascript-->
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<body>
+<center>
+	<a id="kakao-login-btn"></a>
+</center>
+<script type='text/javascript'>
+	Kakao.init('aa598f4adfb9e7e766be17ee75543c48'); //아까 카카오개발자홈페이지에서 발급받은 자바스크립트 키를 입력함
+	//카카오 로그인 버튼을 생성합니다.
+	
+	Kakao.Auth.createLoginButton({
+		container : '#kakao-login-btn',
+		success : function(authObj) {
+			//alert(authObj)			
+			Kakao.API.request({
+				url : '/v2/user/me',
+				success : function(res) {
+					console.log(JSON.stringy())
+					console.log(res.profile);
+				/* 	console.log(res.properties['account_email']);//<---- 콘솔 로그에 닉네임 출력(properties에 있는 nickname 접근
+					var kakaoid = res.id
+					var kakaonickname = res.properties.nickname//으로도 접근 가능
+					var token = authObj.access_token
+					console.log(kakaonickname)
+					console.log(authObj.access_token);/ */
+					//$('#kakaoNickName').text(res.properties.nickname)
+					//window.location.replace("http://" + window.location.hostname + ( (location.port==""||location.port==undefined)?"":":" + location.port) + "/kakaoCheck.jsp?id="+kakaonickname);
+					/* window.location.replace("kakaoCheck.jsp?id="
+					+ kakaonickname + "&kakaoid=" + kakaoid); //로그인 성공시 이동페이지 */
+					// 마이페이지 기능을 사용하기 위해서는 db연동이 필요함???
+					//window.location.replace("loginCheck.jsp?id="+kakaonickname+"token="+token);
+					}
+					})
+					},
+		fail : function(error) {
+			alert(error)
+			//alert(‎JSON.stringify(error));
+			}
+		});
+// SDK 초기화 여부를 판단합니다.
+console.log(Kakao.isInitialized());
+</script>
+
+
+</body>
+</html>

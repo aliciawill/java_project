@@ -1,0 +1,13 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¤›¯¥ýÿÿÿÿ8ªõ—ƒ‚/HŸ+RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(äý¶ñúÿÿÿÿ8Ê´”ƒ‚/H +RMAJORZ
+CODE_SMELL
+·
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8ñ„™ƒ‚/H¡+RCRITICALZ
+CODE_SMELL
+\
+java:S2653"#Remove this unwanted "main" method.(Çµí‘8Ê´”ƒ‚/H¢+RCRITICALZVULNERABILITY
+¼
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡’…ùüÿÿÿÿ8ñ„™ƒ‚/H£+RCRITICALZ
+CODE_SMELL

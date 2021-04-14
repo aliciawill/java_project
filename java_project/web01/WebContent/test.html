@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function getGender() {
+
+		array = document.getElementsByName('gender');
+
+		alert(array.length)
+		for (var i = 0; i < array.length; i++) {
+			if (array[i].checked) {
+				alert(array[i].value)
+			}
+		}
+	}
+</script>
+<body>
+	<input type='radio' name='gender' value='female' />여성
+	<input type='radio' name='gender' value='male' />남성
+	<button onclick='getGender()'>확인</button>
+	<div id='result'></div>
+</body>
+</html>
